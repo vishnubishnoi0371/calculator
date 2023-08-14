@@ -18,6 +18,18 @@
   border-radius: 30px;
   padding: 15px 30px;
 }
+.add:hover{
+    background-color: bisque;
+    color: black;
+}
+.sub:hover{
+    background-color: bisque;
+    color: black;
+}
+.multi:hover{
+    background-color: bisque;
+    color: black;
+}
 .sub {
     background-color: black;
     color: #fff;
@@ -44,5 +56,5 @@
     flex-shrink: 0;
     border-radius: 10px;
     background: var(--whit, #FFF);
-    box-shadow: 0px 25px 30px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 25px 30px 30px rgba(0, 0, 0, 0.10);
 }
